@@ -10,7 +10,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="bg-black flex justify-between items-center p-4">
+    <div className="bg-black flex justify-between items-center p-4 border-b-4 border-green-500 mx-auto sm:px6">
       <div className="text-3xl hover:animate-pulse text-green-500">
         <a href="/">Bit Boys</a>
       </div>
