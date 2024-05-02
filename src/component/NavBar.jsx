@@ -14,7 +14,7 @@ const NavBar = () => {
       <div className="text-3xl hover:animate-pulse text-green-500">
         <a href="/">Bit Boys</a>
       </div>
-      <div>
+      <div className="flex justify-end">
         <a href="https://www.csus.edu/">
           <img src={logo} alt="" width={60} className="hover:animate-spin" />
         </a>
