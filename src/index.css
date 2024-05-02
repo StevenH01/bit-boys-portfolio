@@ -4,4 +4,9 @@
 
 body {
   background: black;
+  color: white;
+}
+
+p {
+  text-align: center;
 }
