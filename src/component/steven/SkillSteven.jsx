@@ -23,7 +23,7 @@ const SkillSteven = () => {
 
   return (
     <div
-      className="w-full inline-flex flex-nowrap overflow-hidden text-green-500"
+      className="w-full inline-flex flex-nowrap overflow-hidden"
       style={{
         WebkitMaskImage: `linear-gradient(to right, transparent 0, black 128px, black calc(100% - 128px), transparent 100%)`,
         maskImage: `linear-gradient(to right, transparent 0, black 128px, black calc(100% - 128px), transparent 100%)`,
@@ -43,27 +43,27 @@ const SkillSteven = () => {
         className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_div]:max-w-none animate-infinite-scroll"
       >
         <li>
-          <div className="flex items-center">
+          <div className="flex items-center text-[#e34c26]">
             <SiHtml5 className="mr-2" /> HTML
           </div>
         </li>
         <li>
-          <div className="flex items-center">
+          <div className="flex items-center text-[#264de4]">
             <SiCss3 className="mr-2" /> CSS
           </div>
         </li>
         <li>
-          <div className="flex items-center">
+          <div className="flex items-center text-[#f0db4f]">
             <SiJavascript className="mr-2" /> JavaScript
           </div>
         </li>
         <li>
-          <div className="flex items-center">
+          <div className="flex items-center text-[#3c873a]">
             <SiNodedotjs className="mr-2" /> Node.js
           </div>
         </li>
         <li>
-          <div className="flex items-center">
+          <div className="flex items-center text-[#61dafb]">
             <SiReact className="mr-2" /> React
           </div>
         </li>
@@ -73,18 +73,18 @@ const SkillSteven = () => {
           </div>
         </li>
         <li>
-          <div className="flex items-center">
-            <SiPython className="mr-2" /> Python
+          <div className="flex items-center text-[#4584b6]">
+            <SiPython className="mr-2 text-[#ffde57]" /> Python
           </div>
         </li>
         <li>
-          <div className="flex items-center">
-            <FaJava className="mr-2" /> Java
+          <div className="flex items-center text-[#5382a1]">
+            <FaJava className="mr-2 text-[#f89820]" /> Java
           </div>
         </li>
         <li>
-          <div className="flex items-center">
-            <SiMongodb className="mr-2" /> MongoDB
+          <div className="flex items-center text-[#966a5b]">
+            <SiMongodb className="mr-2 text-[#589636]" /> MongoDB
           </div>
         </li>
       </ul>
