@@ -10,14 +10,14 @@ const NavBar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center p-4 border-b-2 border-green-500 mx-auto">
-      <div className="text-3xl hover:animate-pulse text-green-500">
-        <a href="/">Bit Boys</a>
-      </div>
-      <div className="flex justify-end">
+    <div className="relative flex justify-between items-center p-4 border-b-2 border-green-500 mx-auto">
+      <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 flex justify-end">
         <a href="https://www.csus.edu/">
           <img src={logo} alt="" width={60} className="hover:animate-spin" />
         </a>
+      </div>
+      <div className="text-3xl hover:animate-pulse text-green-500">
+        <a href="/">Bit Boys</a>
       </div>
       <div className="hidden md:flex text-white gap-6">
         <ul className="flex gap-6">

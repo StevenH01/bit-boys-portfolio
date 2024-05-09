@@ -1,25 +1,25 @@
-import './App.css';
-import NavBar from './component/NavBar';
-import HeroSection from './component/HeroSection';
-import Footer from './component/Footer';
+import "./App.css";
+import NavBar from "./component/NavBar";
+import HeroSection from "./component/HeroSection";
+import Footer from "./component/Footer";
 
-import AlexSection from './component/alex/AlexSection';
-import AngeloSection from './component/angelo/AngeloSection';
-import DannySection from './component/danny/DannySection';
-import HenrySection from './component/henry/HenrySection';
-import JohnSection from './component/john/JohnSection';
-import KevinSection from './component/kevin/KevinSection';
-import SamuelSection from './component/samuel/SamuelSection';
-import StevenSection from './component/steven/StevenSection';
+import AlexSection from "./component/alex/AlexSection";
+import AngeloSection from "./component/angelo/AngeloSection";
+import DannySection from "./component/danny/DannySection";
+import HenrySection from "./component/henry/HenrySection";
+import JohnSection from "./component/john/JohnSection";
+import KevinSection from "./component/kevin/KevinSection";
+import SamuelSection from "./component/samuel/SamuelSection";
+import StevenSection from "./component/steven/StevenSection";
 
 function App() {
   let screen;
-  switch(window.location.pathname) {
+  switch (window.location.pathname) {
     case "/":
-      screen = <HeroSection />
+      screen = <HeroSection />;
       break;
     case "/alex":
-      screen = <AlexSection />
+      screen = <AlexSection />;
       break;
     case "/angelo":
       screen = <AngeloSection />;
@@ -46,11 +46,11 @@ function App() {
       break;
   }
   return (
-    <div>
+    <>
       <NavBar />
       {screen}
       <Footer />
-    </div>
+    </>
   );
 }
 
