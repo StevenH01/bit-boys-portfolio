@@ -3,7 +3,7 @@ import lbs from "../images/landing.png";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col scroll-smooth">
       <h1 className="flex items-center justify-center mt-8 text-3xl text-green-500 underline underline-offset-8">
         About Us
       </h1>
