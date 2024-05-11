@@ -23,6 +23,7 @@ const HeroSection = () => {
         href="https://the-lamby-shop.vercel.app/"
         className="flex items-center justify-center mt-4 "
         target="_blank"
+        rel="noreferrer"
       >
         <img src={lbs} alt="thelambyshop" className="rounded-2xl" />
       </a>
