@@ -28,7 +28,7 @@ const ExperienceSteven = () => {
             rel="noreferrer"
           >
             <p
-              className=" relative hover:text-blue-500 cursor-pointer
+              className="relative hover:text-blue-500 cursor-pointer
                transition-all ease-in-out before:transition-[width] 
                before:ease-in-out before:duration-700 before:absolute 
                before:bg-blue-500 before:origin-center before:h-[1px] 

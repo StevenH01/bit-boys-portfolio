@@ -26,7 +26,7 @@ const StevenSection = () => {
         Resume
       </h1>
       <ResumeSteven />
-      <h1 className="flex justify-center mb-4 underline-offset-4 underline text-2xl text-green-500">
+      <h1 className="flex justify-center underline-offset-4 underline text-2xl text-green-500">
         Contact Me
       </h1>
       <ContactSteven />
